@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    background-image: url('https://getwallpapers.com/wallpaper/full/8/7/a/498709.jpg');
+    font-family: 'Bebas Neue', cursive;
+}
+
+h1 {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.7);
+    text-shadow: 1px 2px #8900ff;
+
+}
+
+.carrousel{
+    width: 90%;
+    max-width: 120em;
+   
+    padding: 2em;
+    overflow: hidden;
+}
+
+.carrousel .grande{
+    width: 200%;
+    
+    
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2em;
+}
+
+.carrousel .img{
+    width: calc(100% / 2);
+    margin: -1em 12em;
+    border: solid #8900ff;
+    border-radius: 2em;
+    box-shadow: 0em 0em 1em #8900ff;
+    
+}
+
+.carrousel .puntos{
+    width: 100%;
+    padding: 1em;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:center;
+    align-items: center;
+}
+
+.carrousel .punto{
+    background-color: #00ff9f;
+    border-radius: 1em;
+    width: 2em;
+    height: 2em;
+    margin: 1em;
+}
+
+.carrousel .punto.activo {
+    background-color:#8900ff ;
+    border-radius: 1em;
+    transition-delay: 0.05s;
+}
+
+.carrousel .punto:hover{
+    font-size: 1em;
+}
